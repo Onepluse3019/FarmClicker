@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-label="Мастерская техники">
+  <defs>
+    <linearGradient id="grass" x2="0" y2="1"><stop stop-color="#90d465"/><stop offset="1" stop-color="#3d924a"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3d8a6"/><stop offset="1" stop-color="#c1905c"/></linearGradient>
+    <linearGradient id="roof" x2=".8" y2="1"><stop stop-color="#f45b35"/><stop offset="1" stop-color="#a92f24"/></linearGradient>
+    <linearGradient id="metal" x2=".8" y2="1"><stop stop-color="#c9e2e5"/><stop offset=".6" stop-color="#638d9b"/><stop offset="1" stop-color="#3f6a78"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d6f9f1" stop-opacity=".98"/><stop offset=".7" stop-color="#70d7ca" stop-opacity=".88"/><stop offset="1" stop-color="#398b8e" stop-opacity=".91"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe665"/><stop offset="1" stop-color="#e9a82c"/></linearGradient>
+    <filter id="shade" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <ellipse cx="183" cy="236" rx="123" ry="25" fill="#153f25" opacity=".25" filter="url(#shade)"/>
+  <polygon points="23,217 180,136 339,216 182,291" fill="#276f39" stroke="#1b5d32" stroke-width="3"/>
+  <polygon points="23,204 180,125 339,205 182,277" fill="url(#grass)" stroke="#6cc451" stroke-width="3"/>
+  <path d="M39 211L184 142L321 210" fill="none" stroke="#c5ef8a" opacity=".3" stroke-width="3"/>
+  
+<g stroke="#573d2f" stroke-width="3" stroke-linejoin="round">
+ <polygon points="77,148 185,96 293,150 189,204" fill="#efbf86"/>
+ <polygon points="77,148 77,229 189,278 189,204" fill="#c78950"/>
+ <polygon points="189,204 293,150 293,234 189,278" fill="#a76842"/>
+ <polygon points="65,150 184,85 306,148 188,218" fill="url(#roof)"/>
+ <path d="M64 150L188 216L306 147" fill="none" stroke="#783a2f" stroke-width="6"/>
+ <path d="M77 148L185 93L293 148" fill="none" stroke="#f6b46b" stroke-width="5"/>
+ <polygon points="112,173 163,198 163,252 112,230" fill="#294e5e"/>
+ <polygon points="117,183 158,202 158,246 117,226" fill="#5d8790"/>
+ <path d="M138 192V235M118 207L156 222" stroke="#c5e2de" stroke-width="4"/>
+ <polygon points="197,217 265,182 265,235 197,266" fill="#2c4852"/>
+ <path d="M208 218L254 194M208 234L254 210M208 249L254 226" stroke="#9bc2c2" stroke-width="5"/>
+ <polygon points="88,163 112,174 112,206 88,195" fill="#fff1ba"/>
+ <polygon points="246,158 267,147 267,169 246,180" fill="#ffe6a0"/>
+ <path d="M112 162L185 124L261 161" fill="none" stroke="#fa9559" stroke-width="5"/>
+</g>
+<rect x="168" y="213" width="21" height="44" rx="4" fill="#efc575" stroke="#765337" stroke-width="3"/>
+<path d="M167 218L194 212" stroke="#fff2c0" stroke-width="5"/>
+<g transform="translate(242 235)" stroke="#294a34" stroke-width="3"><rect x="0" y="0" width="44" height="27" rx="5" fill="#f8b735"/><circle cx="11" cy="28" r="8" fill="#253c39"/><circle cx="35" cy="28" r="8" fill="#253c39"/><rect x="4" y="-6" width="21" height="10" rx="4" fill="#e65d42"/></g>
+<g transform="translate(65 215)"><circle cx="0" cy="0" r="12" fill="#57a439"/><circle cx="13" cy="-5" r="10" fill="#70ba45"/><circle cx="8" cy="12" r="12" fill="#419039"/></g>
+
+  </svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-label="Тепличный комплекс">
+  <defs>
+    <linearGradient id="grass" x2="0" y2="1"><stop stop-color="#90d465"/><stop offset="1" stop-color="#3d924a"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3d8a6"/><stop offset="1" stop-color="#c1905c"/></linearGradient>
+    <linearGradient id="roof" x2=".8" y2="1"><stop stop-color="#f45b35"/><stop offset="1" stop-color="#a92f24"/></linearGradient>
+    <linearGradient id="metal" x2=".8" y2="1"><stop stop-color="#c9e2e5"/><stop offset=".6" stop-color="#638d9b"/><stop offset="1" stop-color="#3f6a78"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d6f9f1" stop-opacity=".98"/><stop offset=".7" stop-color="#70d7ca" stop-opacity=".88"/><stop offset="1" stop-color="#398b8e" stop-opacity=".91"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe665"/><stop offset="1" stop-color="#e9a82c"/></linearGradient>
+    <filter id="shade" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <ellipse cx="183" cy="236" rx="123" ry="25" fill="#153f25" opacity=".25" filter="url(#shade)"/>
+  <polygon points="23,217 180,136 339,216 182,291" fill="#276f39" stroke="#1b5d32" stroke-width="3"/>
+  <polygon points="23,204 180,125 339,205 182,277" fill="url(#grass)" stroke="#6cc451" stroke-width="3"/>
+  <path d="M39 211L184 142L321 210" fill="none" stroke="#c5ef8a" opacity=".3" stroke-width="3"/>
+  
+<path d="M70 210L174 156L295 209L184 263Z" fill="#77b964" opacity=".9"/>
+<g stroke="#245853" stroke-width="3" stroke-linejoin="round">
+ <polygon points="66,175 131,140 196,170 130,208" fill="url(#glass)"/>
+ <polygon points="66,175 66,215 130,245 130,208" fill="#67bdb4"/>
+ <polygon points="130,208 196,170 196,212 130,245" fill="#3c9b96"/>
+ <polygon points="66,175 97,122 164,152 130,208" fill="url(#glass)"/>
+ <polygon points="97,122 131,105 196,140 164,152" fill="#bff4e6"/>
+ <polygon points="164,152 196,140 196,170 130,208" fill="#56aeb1"/>
+</g>
+<g stroke="#f6ffdb" stroke-width="3" fill="none" opacity=".72">
+ <path d="M81 166L147 196M97 145L163 174M110 128L176 157M100 122L165 152"/>
+ <path d="M83 183V223M108 199V235M150 194V235M173 181V223"/>
+</g>
+<g transform="translate(105,37)" stroke="#28635a" stroke-width="3" stroke-linejoin="round">
+ <polygon points="73,130 139,96 207,129 141,166" fill="url(#glass)"/>
+ <polygon points="73,130 73,172 141,208 141,166" fill="#75cbc0"/>
+ <polygon points="141,166 207,129 207,171 141,208" fill="#429b98"/>
+ <polygon points="73,130 104,79 173,110 141,166" fill="url(#glass)"/>
+ <polygon points="104,79 137,63 207,96 173,110" fill="#d8fcf1"/>
+ <polygon points="173,110 207,96 207,129 141,166" fill="#65aeb1"/>
+ <path d="M104 79L173 110L141 166M91 101L160 132M119 94L184 125M86 155L141 183L191 154" stroke="#e0fff4" fill="none" opacity=".9"/>
+</g>
+<g fill="#3d9b38"><ellipse cx="64" cy="222" rx="16" ry="8"/><ellipse cx="276" cy="225" rx="20" ry="10"/><ellipse cx="194" cy="270" rx="28" ry="7"/></g>
+<g fill="#ed5645"><circle cx="60" cy="219" r="5"/><circle cx="274" cy="222" r="5"/><circle cx="199" cy="268" r="5"/></g>
+
+  </svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-label="Большой зерновой склад">
+  <defs>
+    <linearGradient id="grass" x2="0" y2="1"><stop stop-color="#90d465"/><stop offset="1" stop-color="#3d924a"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3d8a6"/><stop offset="1" stop-color="#c1905c"/></linearGradient>
+    <linearGradient id="roof" x2=".8" y2="1"><stop stop-color="#f45b35"/><stop offset="1" stop-color="#a92f24"/></linearGradient>
+    <linearGradient id="metal" x2=".8" y2="1"><stop stop-color="#c9e2e5"/><stop offset=".6" stop-color="#638d9b"/><stop offset="1" stop-color="#3f6a78"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d6f9f1" stop-opacity=".98"/><stop offset=".7" stop-color="#70d7ca" stop-opacity=".88"/><stop offset="1" stop-color="#398b8e" stop-opacity=".91"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe665"/><stop offset="1" stop-color="#e9a82c"/></linearGradient>
+    <filter id="shade" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <ellipse cx="183" cy="236" rx="123" ry="25" fill="#153f25" opacity=".25" filter="url(#shade)"/>
+  <polygon points="23,217 180,136 339,216 182,291" fill="#276f39" stroke="#1b5d32" stroke-width="3"/>
+  <polygon points="23,204 180,125 339,205 182,277" fill="url(#grass)" stroke="#6cc451" stroke-width="3"/>
+  <path d="M39 211L184 142L321 210" fill="none" stroke="#c5ef8a" opacity=".3" stroke-width="3"/>
+  
+<g stroke="#535b51" stroke-width="3" stroke-linejoin="round">
+ <polygon points="63,166 186,105 304,162 184,225" fill="#7b9aa2"/>
+ <polygon points="67,169 67,232 182,284 182,222" fill="url(#wall)"/>
+ <polygon points="182,222 300,162 300,224 182,284" fill="#ad8963"/>
+ <polygon points="52,167 181,93 319,163 184,234" fill="url(#metal)"/>
+ <path d="M53 166L183 235L318 162" fill="none" stroke="#52636a" stroke-width="7"/>
+ <path d="M75 159L203 224M102 145L230 211M129 130L257 197M156 114L284 183" stroke="#d5ebdf" stroke-width="4"/>
+ <polygon points="88,190 155,220 155,268 88,239" fill="#d6c29e"/>
+ <polygon points="92,195 150,222 150,261 92,235" fill="#516870"/>
+ <path d="M92 206L150 234M92 217L150 245M92 228L150 256" stroke="#e3d6b3" stroke-width="3"/>
+ <polygon points="200,220 274,181 274,232 200,270" fill="#856340"/>
+ <path d="M208 224L266 196M208 237L266 208M208 250L266 221" stroke="#d3aa6e" stroke-width="4"/>
+</g>
+<g transform="translate(45 196)">
+ <path d="M0 24L31 8L63 23L33 39Z" fill="#d8bb82" stroke="#7d6942" stroke-width="3"/>
+ <path d="M0 24V47L34 61V39Z" fill="#caa36e" stroke="#7d6942" stroke-width="3"/>
+ <path d="M34 39L63 23V48L34 61Z" fill="#a98254" stroke="#7d6942" stroke-width="3"/>
+ <path d="M8 22L40 35M32 15L52 28" stroke="#ffe6a1" stroke-width="3"/>
+</g>
+<g fill="#a56b3a" stroke="#6f4b30" stroke-width="2"><rect x="278" y="217" width="17" height="30" rx="2"/><rect x="296" y="221" width="14" height="26" rx="3"/></g>
+<g stroke="#fce3a3" stroke-width="3"><path d="M275 221L292 222M276 229L294 230M295 232L309 232"/></g>
+
+  </svg>

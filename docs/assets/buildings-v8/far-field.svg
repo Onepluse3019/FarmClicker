@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-label="Большое дальнее поле">
+  <defs>
+    <linearGradient id="grass" x2="0" y2="1"><stop stop-color="#90d465"/><stop offset="1" stop-color="#3d924a"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3d8a6"/><stop offset="1" stop-color="#c1905c"/></linearGradient>
+    <linearGradient id="roof" x2=".8" y2="1"><stop stop-color="#f45b35"/><stop offset="1" stop-color="#a92f24"/></linearGradient>
+    <linearGradient id="metal" x2=".8" y2="1"><stop stop-color="#c9e2e5"/><stop offset=".6" stop-color="#638d9b"/><stop offset="1" stop-color="#3f6a78"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d6f9f1" stop-opacity=".98"/><stop offset=".7" stop-color="#70d7ca" stop-opacity=".88"/><stop offset="1" stop-color="#398b8e" stop-opacity=".91"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe665"/><stop offset="1" stop-color="#e9a82c"/></linearGradient>
+    <filter id="shade" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <ellipse cx="183" cy="236" rx="123" ry="25" fill="#153f25" opacity=".25" filter="url(#shade)"/>
+  <polygon points="23,217 180,136 339,216 182,291" fill="#276f39" stroke="#1b5d32" stroke-width="3"/>
+  <polygon points="23,204 180,125 339,205 182,277" fill="url(#grass)" stroke="#6cc451" stroke-width="3"/>
+  <path d="M39 211L184 142L321 210" fill="none" stroke="#c5ef8a" opacity=".3" stroke-width="3"/>
+  
+<polygon points="37,202 177,131 319,203 183,270" fill="#a06c38" stroke="#76512b" stroke-width="5"/>
+<polygon points="41,200 177,134 315,202 182,265" fill="#604e2c"/>
+<g stroke="#c67d2f" stroke-width="2" stroke-linejoin="round">
+<path d="M54 204L182 139L304 203L184 259Z" fill="#a86b29"/>
+<path d="M56 207L183 145L211 160L83 224Z" fill="url(#gold)"/>
+<path d="M85 224L214 161L242 177L111 239Z" fill="#ffcf41"/>
+<path d="M112 241L245 177L270 191L141 254Z" fill="url(#gold)"/>
+<path d="M145 253L273 192L303 204L183 264Z" fill="#ffcb39"/>
+</g>
+<g stroke="#f6e58b" stroke-width="2" opacity=".9">
+<path d="M80 193L102 210M98 185L122 201M118 176L145 190M141 164L164 178M167 153L189 169"/>
+<path d="M111 207L139 222M137 195L161 211M160 185L183 201M185 173L209 190"/>
+<path d="M155 219L178 235M179 204L203 218M204 193L224 207M229 182L248 194"/>
+</g>
+<g fill="#ffe378" stroke="#e7b23b" stroke-width="1.5">
+<ellipse cx="71" cy="198" rx="3" ry="11" transform="rotate(50 71 198)"/><ellipse cx="96" cy="184" rx="3" ry="11" transform="rotate(50 96 184)"/><ellipse cx="119" cy="171" rx="3" ry="11" transform="rotate(50 119 171)"/>
+<ellipse cx="147" cy="206" rx="3" ry="11" transform="rotate(50 147 206)"/><ellipse cx="181" cy="187" rx="3" ry="11" transform="rotate(50 181 187)"/>
+<ellipse cx="184" cy="246" rx="3" ry="10" transform="rotate(50 184 246)"/><ellipse cx="222" cy="220" rx="3" ry="10" transform="rotate(50 222 220)"/><ellipse cx="261" cy="196" rx="3" ry="10" transform="rotate(50 261 196)"/>
+</g>
+<g stroke="#a36d38" stroke-width="4" fill="none">
+<path d="M45 199L182 269L313 201M46 198L177 130L318 202"/>
+<path d="M45 202L45 220M180 269L180 287M317 200L317 216"/>
+</g>
+<g transform="translate(264 106)"><path d="M0 55V10" stroke="#b18a56" stroke-width="8"/><path d="M0 15L30 27L0 35Z" fill="#e35139"/><path d="M0 15L-20 25L0 34Z" fill="#ffe38a"/></g>
+
+  </svg>
